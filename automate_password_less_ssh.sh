@@ -16,5 +16,4 @@ do
 	read remote_host
 	echo "copying key file to $remote_host...."
 	ssh-copy-id -f -i ~/.ssh/id_rsa.pub -o IdentityFile=$pem_path "$remote_user@$remote_host"
-
 done
