@@ -1,0 +1,34 @@
+Shell scripting Syntax
+
+--If else
+
+if [$age -eq 18]
+then 
+	echo "abc"
+else 
+	echo "xyz"
+fi
+
+elif : can be used for nested if statement
+
+To get user input use:
+read varname
+
+Operators:
+Equal: -eq / ==
+greaterthen or equal: -ge
+lessthen or equal: -le
+not equal: -ne /!=
+greater than: -gt
+less than: -lt
+
+--- Check if folder or file exist
+
+if [-d foldername]: if folder exist
+[! -d foldername]: if folder does not exist
+
+if [-f filename] : if file exist
+if [! -f filename]: if file does not exist
+
+--Switch
+
