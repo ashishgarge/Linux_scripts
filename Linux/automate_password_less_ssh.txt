@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "enter the remote username:"
 read remote_user
 echo "enter number of servers: "
